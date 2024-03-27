@@ -12,6 +12,7 @@ const Banner = () => {
         background: 'url("images/banner.png")',
         backgroundRepeat: "no-repeat",
         backgroundPosition: "center",
+        backgroundSize: "cover",
       }}
       className="pt-[250px] pb-[200px]"
     >
@@ -36,7 +37,7 @@ const Banner = () => {
               <p className="text-para">
                 We Accept Payment Through All Cards & Banking
               </p>
-              <a className="underline font-bold text-para mt-2" href="">
+              <a className="underline font-bold text-para mt-2">
                 Book Now!
               </a>
             </div>
